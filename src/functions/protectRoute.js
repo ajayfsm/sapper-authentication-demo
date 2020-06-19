@@ -6,6 +6,10 @@ const PROTECTED_ROUTES = {
   '/organisation': {
     scope: 'owner',
     redirectTo: '/'
+  },
+  '/profile': {
+    scope: 'user',
+    redirectTo: '/'
   }
 }
 

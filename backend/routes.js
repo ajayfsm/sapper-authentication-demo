@@ -12,12 +12,12 @@ const usersDatabase = [
   {
     name: 'An Owner',
     email: 'owner@example.org',
-    scope: [ 'owner', 'moderator' ]
+    scope: [ 'owner', 'moderator', 'user' ]
   },
   {
     name: 'An Admin',
     email: 'admin@example.net',
-    scope: [ 'admin', 'secret' ]
+    scope: [ 'admin', 'secret', 'user' ]
   }
 ]
 
